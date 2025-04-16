@@ -1,6 +1,7 @@
 # GigFloww Sign-Up Form with Validation
 
-![Project Preview](https://via.placeholder.com/800x400.png?text=Add+Project+Screenshot+Here) <!-- Add real screenshot later -->
+ <!-- Add real screenshot later -->
+![Screenshot (404)](https://github.com/user-attachments/assets/7ce907ca-507e-4c6b-85dd-8c11b5693817)
 
 A responsive sign-up form for gig workers with real-time validation, built with HTML, CSS, and JavaScript.
 
