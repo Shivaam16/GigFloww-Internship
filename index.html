@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GigFloww - Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Join GigFloww</h1>
+      <form id="signupForm">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" required />
+          <span class="error" id="nameError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+          <span class="error" id="emailError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="skill">Skill Category:</label>
+          <select id="skill" required>
+            <option value="">Select your skill</option>
+            <option>Design</option>
+            <option>Development</option>
+            <option>Writing</option>
+            <option>Marketing</option>
+          </select>
+          <span class="error" id="skillError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="portfolio">Portfolio Link:</label>
+          <input type="url" id="portfolio" placeholder="https://example.com" />
+          <span class="error" id="portfolioError"></span>
+        </div>
+
+        <button type="submit">Join Now</button>
+      </form>
+
+      <div id="successMessage" class="hidden">
+        <h2>Thank you for joining!</h2>
+        <p>
+          We've received your application. Our team will review your details
+          shortly.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
